@@ -13,14 +13,22 @@ class Triangulo
         lado2 = Double.Parse(Console.ReadLine());
         Console.WriteLine("Introduzca el último lado");
         lado3 = Double.Parse(Console.ReadLine());
-        if ((lado1==lado2) & (lado1==lado3)) Console.WriteLine("El triangulo es EQUILATERO");
-        if (lado1 < lado2) {
-            if (lado3 < lado2) Console.WriteLine("El lado 2 es el lado mayor");
-            else Console.WriteLine("El lado 3 es el lado mayor"); }
-        else {
-            if (lado3 < lado1) Console.WriteLine("El lado 1 es el lado mayor");
-            else Console.WriteLine("El lado 3 es el lado mayor");
+        if ((lado1 == lado2) & (lado1 == lado3))
+        {
+            Console.WriteLine("El triangulo es EQUILATERO");
+        } else {        // SI EL TRIANGULO ES EQUILATERO TODO ESTE BLOQUE NO SE EJECUTA
+            if (lado1 < lado2)
+            {
+                if (lado3 < lado2) Console.WriteLine("El lado 2 es el lado mayor");
+                else Console.WriteLine("El lado 3 es el lado mayor");
+            }
+            else
+            {
+                if (lado3 < lado1) Console.WriteLine("El lado 1 es el lado mayor");
+                else Console.WriteLine("El lado 3 es el lado mayor");
+            }
         }
+        
     }
 
 }
