@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Alfonso\\source\\repos\\Triangulo\\Triangulo.csproj": {}
+    "C:\\Users\\Alfonso\\Source\\Repos\\TrianguloClone\\Triangulo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Alfonso\\source\\repos\\Triangulo\\Triangulo.csproj": {
+    "C:\\Users\\Alfonso\\Source\\Repos\\TrianguloClone\\Triangulo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alfonso\\source\\repos\\Triangulo\\Triangulo.csproj",
+        "projectUniqueName": "C:\\Users\\Alfonso\\Source\\Repos\\TrianguloClone\\Triangulo.csproj",
         "projectName": "Triangulo",
-        "projectPath": "C:\\Users\\Alfonso\\source\\repos\\Triangulo\\Triangulo.csproj",
+        "projectPath": "C:\\Users\\Alfonso\\Source\\Repos\\TrianguloClone\\Triangulo.csproj",
         "packagesPath": "C:\\Users\\Alfonso\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alfonso\\source\\repos\\Triangulo\\obj\\",
+        "outputPath": "C:\\Users\\Alfonso\\Source\\Repos\\TrianguloClone\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Alfonso\\AppData\\Roaming\\NuGet\\NuGet.Config",
